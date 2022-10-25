@@ -7,6 +7,12 @@ import { IniciarSesionComponent } from './Component/iniciar-sesion/iniciar-sesio
 import { PortfolioComponent } from './Component/portfolio/portfolio.component';
 import { HeaderComponent } from './Component/header/header.component';
 import { ScrollAnimationDirective } from './Directive/scroll-animation.directive';
+import { AboutMeComponent } from './Component/about-me/about-me.component';
+import { EducacionComponent } from './Component/educacion/educacion.component';
+import { ProyectoComponent } from './Component/proyecto/proyecto.component';
+import { ExperienciaComponent } from './Component/experiencia/experiencia.component';
+import { SkillsComponent } from './Component/skills/skills.component';
+import { FooterComponent } from './Component/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +20,13 @@ import { ScrollAnimationDirective } from './Directive/scroll-animation.directive
     IniciarSesionComponent,
     PortfolioComponent,
     HeaderComponent,
-    ScrollAnimationDirective
+    ScrollAnimationDirective,
+    AboutMeComponent,
+    EducacionComponent,
+    ProyectoComponent,
+    ExperienciaComponent,
+    SkillsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

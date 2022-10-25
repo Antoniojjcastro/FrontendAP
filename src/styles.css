@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    /*--color: #198778;*/
+    --color: var(--color10);
+    --color-button: #148D8D;
+    /*paleta de colores*/
+    --color1: #0E2C40;
+    --color2: #1A4A5A;
+    --color3: #148D8D;
+    --color4: #C1E1A7;
+    --color5: #EFBC75;
+
+    /*paleta de colores 2*/
+    --color6: #010440;
+    --color7: #010326;
+    --color8: #021373;
+    /*--color9:#1675F2;*/
+    --color9: #0E2C40;
+
+    --color10: #6B727C;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+body{
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    border: #fff 5px solid;
+
+
+    background-color: hsl(0, 0%, 0%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(220, 13%, 18%) 15%,
+        hsl(240, 3%, 6%) 35%,
+        hsla(220, 46%, 5%, 0.822) 75%,
+        hsla(240, 33%, 1%, 0.425) 80%,
+        transparent 100%),
+
+
+        radial-gradient(650px circle at 50% 50%,
+        hsl(218, 12%, 13%) 15%,
+        hsl(240, 3%, 6%) 35%,
+        hsla(220, 46%, 5%, 0.822) 75%,
+        hsla(240, 33%, 1%, 0.425) 80%,
+        transparent 100%),
+
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(215, 17%, 20%) 15%,
+        hsl(223, 13%, 11%) 35%,
+        hsla(218, 41%, 5%, 0.842) 75%,
+        hsla(0, 0%, 0%, 0.603) 80%,
+        transparent 100%);
+
+}
