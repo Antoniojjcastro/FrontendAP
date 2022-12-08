@@ -3,7 +3,7 @@
 .bg-cardglass{
     background-color: #0000006b;
     color: #fff;
-    border: 2px solid #fff ;
+    border: 1px solid rgba(255, 255, 255, 0.082) ;
    }
    
    .bg-cardglass::before{
@@ -25,7 +25,7 @@
        height: 100%;
        color: #fff;
       /* background: linear-gradient(45deg,#ffee048e,#5a1a1ab7);*/
-      background: linear-gradient(45deg,#ffffff4b,#03dcf888);
+      background: linear-gradient(45deg,#ffffff4b,#007d8d88);
        filter: blur(2px);
    }
    

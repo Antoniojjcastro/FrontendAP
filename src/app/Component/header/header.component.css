@@ -1,6 +1,6 @@
 .text-header{
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.63);
 }
 
 
@@ -28,11 +28,22 @@
 
 .nav-link:hover, .navbar-brand:hover{
     color: #148D8D;
-    font-weight: bold;
+   
 }
 
 
 
 .bg-navbar, .bg-dropdown{
     background: linear-gradient(45deg,#381fc78e,#148d8d59);
+}
+
+.icons-web{ 
+    font-size: 25px;
+    align-self: center;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.icons-web:hover{
+color: #148D8D;
 }
